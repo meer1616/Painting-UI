@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brawler&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=KoHo:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    width: 100wh;
+}
+.background{
+    background: url(../img/eye1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#close{
+    display: none;
+}
+#ham{
+    display: none;
+}
+.horiznav{
+    top: 0;
+    position: sticky;
+    background-color:rgb(46, 46, 46);
+}
+.horiznavbar {
+    display: flex;
+}
+.horiznavbar li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+.painto a{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold; 
+}
+.horiznavbar li{
+    list-style: none;
+    margin: auto auto;
+    padding: 20px 10px;
+    
+}   
+.hide{
+    font-family: 'KoHo', sans-serif;
+}
+.hide:hover {
+    color: black;
+    background-color: rgb(200, 240, 232);
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.home{
+    border: 1px solid transparent;
+}
+.homecontent{
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 100px 150px;
+}
+.homecontent p{
+    padding: 7px 20px;
+}
+.homecontent h4 p{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button{
+    margin: 25px 0px;
+    text-align: center;
+    width: 100%;
+}
+.btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: transparent;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 5px 0px;
+}
+.btn:hover{
+   cursor: pointer;
+    background-color: rgb(46, 46, 46);
+    color: lightcyan;
+}
+.sales h6 p{
+    background-color:rgb(46, 46, 46);
+    color: white;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+.salesbox{
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow: auto;
+}
+.boxes{
+    margin: 25px 30px;
+    padding:10px 0px ;
+    flex: 0 0 auto; /* Three values: flex-grow | flex-shrink | flex-basis */
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.boximg img{
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    padding: 0px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.boxforflex{
+    padding: 10px 0;
+    display: flex;
+}
+.amtanddetailbox{
+    width: 50%;
+}
+.amtanddetailbox p{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+}
+.detailbtn{
+    width: 65%;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(0, 81, 255);
+    color: rgb(0, 81, 255);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 3px;
+    display: block;
+    margin:8px auto;
+}
+.detailbtn:hover{
+    cursor: pointer;
+   color: white;
+   background-color: rgb(0, 81, 255);
+}
+.buybtn{
+    display: block;
+    margin:8px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: #159715;
+}
+.buybtn:hover{
+    cursor: pointer;
+    transform: translateY(2px);
+}
+
+.buyanddesc p{
+    padding: 8px 20px;
+}
+
+.services h2{
+    background-color:rgb(46, 46, 46);
+    color: white;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 10px 0
+}
+.servicescontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicesbox{
+   width: 33.33%;
+}
+.titleofservices{
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    width: 90%; 
+    padding: 5px 17px;
+    border: 1px solid black;
+    margin: 35px auto;
+}
+.titleofservices span{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 5px;
+}
+.titleofservices p{
+    padding: 20px 10px;
+    font-size: 18px;
+}
+.patnerscontainer h2{
+    background-color: rgb(205, 237, 247);
+    font-family: 'Thasadith', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0;
+}
+.patnerscontainer{
+    background-color: rgb(205, 237, 247);
+    margin: 15px 0;
+}    
+.patnerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patnerbox img{
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.partimg{
+    margin: 0 10px;
+}
+.last{
+    background-color: rgb(250, 250, 250);
+}
+.lastcontainer{
+    display: flex;
+}
+.lastbox{
+    margin: auto;
+    height: 320px;
+}
+.lastbox h3{
+    padding: 10px 20px;
+}
+.lastbox ul li{
+    font-size: 1rem;
+    padding: 5px 20px;
+    list-style: none;
+    font-family: 'Thasadith', sans-serif;
+}
+.lastbox ul li a{
+    color: black;
+   text-decoration: none;
+}
+footer{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    background-color:rgb(46, 46, 46);
+    padding: 10px;
+    text-align: center;
+}
+/* ************  Gallery  ******************/
+.galbox{
+    margin: auto;
+    width: 94%;
+}
+.galbox1{
+ margin :23px 0;
+}
+.galbox1 h2{
+    padding: 20px 15px;
+   }
+.contofgalbox1{
+    display: flex;
+width: 90%;
+margin: auto;
+}
+.contofgalbox1 img{
+height: 100%;
+width: 100%;
+   }
+   .paraofgalbox1{
+       margin: auto auto;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+   }
+   .paraofgalbox1 p{
+       font-size: 25px;
+       padding: 15px 10px   ;
+   }
+   .medbox{
+       margin: 25px 0;
+   }
+   .medtitle{
+    padding: 10px 0px   ;
+    margin: 25px 0;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+       text-align: center;
+   }
+   .bymedium{
+       display: flex;
+       flex-wrap: wrap;
+ width: 80%;
+ margin: auto;
+ justify-content: center;
+   }
+   .showmore a{
+       text-decoration: none;
+       color: black;
+    }
+    .showmore a:hover{
+        text-decoration: none;
+        color: blue;
+     }
+    .showmore {
+        padding: 15px 0;
+       text-align: center;
+font-size: 18px;
+   }
+   .link p{
+       padding: 5px 0;
+       text-align: center;
+   }
+   .bymedimg{
+       margin: 10px 10px;
+   }
+   .bymedimg img{
+       height: 200px;
+       width: 250px;
+       margin: auto;
+   }
+   .forroundcorner img{
+    height: 200px;
+    width: 240px;
+    border-radius: 50%;
+    margin: 20px 20px;
+   }
