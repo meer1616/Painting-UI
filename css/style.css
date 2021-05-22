@@ -94,6 +94,7 @@ html{
     padding: 5px 0px;
 }
 .btn:hover{
+    outline: none;
    cursor: pointer;
     background-color: rgb(46, 46, 46);
     color: lightcyan;
